@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#ffdfeaf1"
+    android:gravity="center_horizontal">
+
+    <TextView android:text="@string/portfolio_heading" android:layout_width="wrap_content"
+        android:capitalize="characters"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="32dp"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:elevation="8dp"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:background="#ff6f00"
+        android:layout_marginRight="32dp"
+        android:text="@string/appname_spotify"
+        android:id="@+id/button_spotify" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:elevation="8dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="16dp"
+        android:background="#ff6f00"
+        android:layout_marginRight="32dp"
+        android:text="@string/appname_scores"
+        android:id="@+id/button_scores" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:background="#ff6f00"
+        android:elevation="8dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="32dp"
+        android:text="@string/appname_library"
+        android:id="@+id/button_library" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:elevation="8dp"
+        android:layout_marginTop="16dp"
+        android:background="#ff6f00"
+        android:textColor="#ffffff"
+        android:layout_marginRight="32dp"
+        android:text="@string/appname_build"
+        android:id="@+id/button_build" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:elevation="8dp"
+        android:layout_height="wrap_content"
+        android:text="@string/appname_xyz"
+        android:background="#ff6f00"
+        android:textColor="#ffffff"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:id="@+id/button_xyz" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appname_own"
+        android:elevation="8dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="16dp"
+        android:background="#ff2222"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:id="@+id/button_own" />
+
+</LinearLayout>
